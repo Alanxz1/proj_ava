@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVAFORMADORA</title>
+    <link rel="shortcut icon" href="/assets/img/unisuam-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/ex2.css">
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/voltar.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Principal</a></li>
+                    <li class="nav-item"><a href="ex1.html" class="nav-link">Exercício 1</a></li>
+                    <li class="nav-item"><a href="ex2.html" class="nav-link">Exercício 2</a></li>
+                    <li class="nav-item"><a href="ex3.html" class="nav-link">Exercício 3</a></li>
+                </ul>
+            </div>
+            
+            <div class="logo">
+                <img src="assets/img/unisuam-logo.png" alt="">
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img src="assets/img/menu_white_36dp.svg" alt=""></button>
+            </div>
+
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Principal</a></li>
+                    <li class="nav-item"><a href="ex1.html" class="nav-link">Exercício 1</a></li>
+                    <li class="nav-item"><a href="ex2.html" class="nav-link">Exercício 2</a></li>
+                    <li class="nav-item"><a href="ex3.html" class="nav-link">Exercício 3</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <body>
+        
+    <form action="ex2.php" method="post">
+        <div>
+            <label for="Login">Login:</label>
+            <input type="text" id="Login" name="login" placeholder="Insira seu Login" required>
+        </div> <br>
+
+        <div>
+            <label for="Senha">Senha:</label>
+            <input type="password" id="Senha" name="senha" placeholder="Insira sua Senha" required>
+        </div> <br>
+
+        <div class="button">
+            <button type="submit" id="btn" value="submit">Login</button>  
+            <button onclick="Voltar()" id="btn2">Voltar</button>
+        </div>
+    </form>
+  
+    </body>
